@@ -1025,8 +1025,8 @@ class PostgresqlOperatorCharm(CharmBase):
                 self.unit.status = BlockedStatus(validation_message)
                 return
 
-        if self._handle_processes_failures():
-            return
+        # if self._handle_processes_failures():
+        #     return
 
         self._set_primary_status_message()
 
