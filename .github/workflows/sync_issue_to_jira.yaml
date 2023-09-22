@@ -9,7 +9,7 @@ on:
 jobs:
   sync:
     name: Sync GitHub issue to Jira
-    uses: canonical/data-platform-workflows/.github/workflows/sync_issue_to_jira.yaml@f398b1deef66493fc2018625bcbfa0078b8627bc # v5
+    uses: canonical/data-platform-workflows/.github/workflows/sync_issue_to_jira.yaml@d212cd14d5d5c81aef33b2a345065517d135939e # v5
     with:
       jira-base-url: https://warthogs.atlassian.net
       jira-project-key: DPE
